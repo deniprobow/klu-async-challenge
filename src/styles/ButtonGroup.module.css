@@ -1,0 +1,23 @@
+/** *****************************************************************
+  | Author            : @deniprobow
+  | Name              : ButtonGroup.module.css
+  | Updater           : @deniprobow
+  | last_change       : 2023-08-05
+  | Description_update: -
+  | Description       : ButtonGroup For Input Message CSS Module
+  *******************************************************************/
+.inputGroup{
+    @apply flex w-full  h-[44px] relative bottom-0 left-0 
+}
+
+.inputMessage{
+    @apply flex items-center justify-center text-gray-700  w-full border rounded-lg focus:outline-none focus:border-indigo-300 pl-4 px-4 py-1
+}
+
+.buttonSend{
+    @apply flex items-center justify-center bg-indigo-500 hover:bg-indigo-600 border-indigo-500 rounded-lg text-white px-4 py-1 w-40 ml-4 disabled:opacity-40
+}
+
+.buttonSendIcon{
+    @apply ml-2 w-4 h-4 transform rotate-45 -mt-px
+}

@@ -1,0 +1,40 @@
+/** *****************************************************************
+  | Author            : @deniprobow
+  | Name              : UrlLinkPreview.module.css
+  | Updater           : @deniprobow
+  | last_change       : 2023-08-05
+  | Description_update: -
+  | Description       : UrlLinkPreview CSS Module
+  *******************************************************************/
+
+.cardPreview{
+    @apply mb-2 p-0 overflow-hidden flex flex-row-reverse border-[1px] border-gray-300 bg-gray-100 rounded-lg
+}
+
+.imgCardPreviewWrapper{
+    @apply relative grow
+}
+
+.imgCardPreview{
+    @apply object-cover absolute w-full h-full 
+}
+
+.titleDescriptionWrapper{
+    @apply flex flex-col gap-1 p-3   bg-gray-100
+}
+
+.labelTitle{
+    @apply whitespace-nowrap text-ellipsis overflow-hidden text-lg
+}
+
+.labelDescription{
+    @apply text-gray-500 text-sm overflow-hidden
+}
+
+.labelUrl{
+    @apply whitespace-nowrap text-ellipsis overflow-hidden text-lg
+}
+
+.iconWrapperFlex{
+    @apply flex gap-2 items-center overflow-hidden w-full
+}

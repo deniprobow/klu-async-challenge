@@ -1,0 +1,11 @@
+/** *****************************************************************
+  | Author            : @deniprobow
+  | Name              : Wrapper.module.css
+  | Updater           : @deniprobow
+  | last_change       : 2023-08-05
+  | Description_update: -
+  | Description       : Main Wrapper CSS Module
+  *******************************************************************/
+.wrapper{
+    @apply flex flex-1 flex-col bg-[#F3F4F6] box-border h-full rounded-[10px] w-[600px] align-bottom justify-center p-4 m-auto
+}

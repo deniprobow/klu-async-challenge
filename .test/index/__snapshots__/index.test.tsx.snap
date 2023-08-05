@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders a button-group component 1`] = `null`;
+
+exports[`Home renders a content-message 1`] = `null`;
+
+exports[`Home renders a content-message 2`] = `null`;
+
+exports[`Home renders a content-message component 1`] = `null`;
+
+exports[`Home renders a input-message component 1`] = `null`;
+
+exports[`Home renders a main-container 1`] = `
+<main
+  class="wrapper"
+  data-testid="main-container"
+>
+  <div
+    class="contentMessage"
+  />
+  <div
+    class="inputGroup"
+  >
+    <input
+      class="inputMessage"
+      placeholder="Type Message..."
+      value=""
+    />
+    <button
+      class="buttonSend"
+      type="button"
+    >
+      Send
+      <svg
+        class="buttonSendIcon"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+        />
+      </svg>
+    </button>
+  </div>
+</main>
+`;

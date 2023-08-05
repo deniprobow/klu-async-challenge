@@ -1,0 +1,23 @@
+/** *****************************************************************
+  | Author            : @deniprobow
+  | Name              : ContentMessage.module.css
+  | Updater           : @deniprobow
+  | last_change       : 2023-08-05
+  | Description_update: -
+  | Description       : Content For List of Messages CSS Module
+  *******************************************************************/
+.contentMessage{
+    @apply flex flex-1 flex-col h-full w-full pb-4 box-border justify-self-end overflow-y-auto
+}
+.detailMessage{
+    @apply relative  text-sm bg-white py-2 px-4 shadow rounded-lg w-1/3 my-2 text-gray-700 break-words
+}
+.deleteMessageIcon{
+    @apply  bg-transparent text-gray-500 opacity-5 h-4 w-4 text-2xl block outline-none focus:outline-none
+}
+.deleteMessageIconButton{
+    @apply p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none
+}
+.detailTime{
+    @apply text-gray-500 text-xs text-end justify-self-end
+}

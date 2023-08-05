@@ -1,0 +1,15 @@
+/** *****************************************************************
+  | Author            : @deniprobow
+  | Name              : ErrorFallback.module.css
+  | Updater           : @deniprobow
+  | last_change       : 2023-08-05
+  | Description_update: -
+  | Description       : ErrorFallback Component CSS Module
+  *******************************************************************/
+.box{
+    @apply flex mb-4 p-3 w-full
+}
+
+.boxLabel{
+    @apply break-words
+}

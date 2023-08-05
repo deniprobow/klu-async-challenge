@@ -1,0 +1,42 @@
+/** *****************************************************************
+  | Author            : @deniprobow
+  | Name              : Modal.module.css
+  | Updater           : @deniprobow
+  | last_change       : 2023-08-05
+  | Description_update: -
+  | Description       : Modal Component CSS Module
+  *******************************************************************/
+
+.modal{
+    @apply justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none
+}
+.modalWrapper{
+    @apply  relative w-[600px] my-6 mx-auto max-w-screen-sm
+}
+.modalContent{
+    @apply border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none
+}
+.modalHeader{
+    @apply flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t
+}
+.modalHeaderTitle{
+    @apply text-3xl font-semibold
+}
+.modalHeaderButtonClose{
+    @apply p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none
+}
+.modalHeaderSpanClose{
+    @apply bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none
+}
+.modalBody{
+    @apply relative p-6 flex-auto
+}
+.modalBodyDescription{
+    @apply my-4 text-slate-500 text-lg leading-relaxed
+}
+.modalFooter{
+    @apply flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b
+}
+.modalShadow{
+    @apply opacity-25 fixed inset-0 z-40 bg-black
+}

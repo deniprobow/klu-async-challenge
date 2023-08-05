@@ -1,0 +1,15 @@
+/** *****************************************************************
+  | Author            : @deniprobow
+  | Name              : Button.module.css
+  | Updater           : @deniprobow
+  | last_change       : 2023-08-05
+  | Description_update: -
+  | Description       : Button CSS Module
+  *******************************************************************/
+.buttonOk{
+   @apply bg-emerald-500 text-white active:bg-emerald-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150
+}
+
+.buttonCancel{
+    @apply text-red-500 bg-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150
+ }
