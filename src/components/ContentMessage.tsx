@@ -31,7 +31,7 @@ function ContentMessage(props:any) {
                         <div key={el.id} >
                         <div className={styles.detailMessage} >
                             <Anchorme data-id={el.id}>{el.message}</Anchorme><br/>
-                            <small className={styles.detailTime}>{TimeHourMinuteFormatter(el.datetime)}</small> <button onClick={()=>handleDelete(el.id)} data-testid={el.message} className={styles.deleteMessageIconButton} > <span className={styles.deleteMessageIcon}><FaTrash /></span> </button>
+                            <small className={styles.detailTime}>{TimeHourMinuteFormatter(el.datetime)}</small> <FaTrash onClick={()=>handleDelete(el.id)} data-testid={el.message} className={styles.deleteMessageIcon}/> 
                         </div>
                         {
                             el.message.match(/\bhttps?:\/\/\S+/gi) &&
